@@ -70,7 +70,7 @@ button.white {
 
 body {
     width: 100%;
-    background: #bfa7b5;
+    background: #fff;
 }
 
 #marquee {
@@ -153,3 +153,143 @@ body {
     font-weight: 700;
     font-size: 15px;
 }
+
+#welcome {
+    width: 100%;
+}
+
+#services {
+    text-align: center;
+}
+
+#services .pro-container {
+    display: flex;
+    
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#services .pro-container .pro {
+    width: 30%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#services .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+#services .pro-container .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#services .pro-container .pro .des span {
+    font-weight: 500;
+}
+#services .pro-container .pro p {
+    text-align: left;
+}
+
+#services .pro-container .pro button {
+    background-color: #bfa7b5;
+    color: #fff;
+}
+
+#services .pro-container .pro:nth-child(2) img,
+#services .pro-container .pro:nth-child(3) img {
+    height: 41%;   
+}
+
+#partners {
+   text-align: center;
+   margin: 40px;
+}
+
+#partners p {
+    margin-bottom: 30px;
+    padding: 20px;
+}
+#partners .airlines {
+    display: flex;
+    justify-content: space-between;
+}
+
+#partners .airlines img {
+    width: 70px;
+    height: 60px;
+}
+
+#divider {
+
+    margin: 40px;
+        border-top: 15px solid #bfa7b5;
+        border-radius: 5px;
+      
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+footer .col {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
