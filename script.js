@@ -1,17 +1,15 @@
-var slideIndex = 1;
-showDivs(slideIndex);
+const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const nav = document.getElementById('navbar');
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+if(bar) {
+    bar.addEventListener('click', () => {
+        nav.classList.add('active');
+    })
 }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
+if(close) {
+    close.addEventListener('click', () => {
+        nav.classList.remove('active');
+    })
 }
